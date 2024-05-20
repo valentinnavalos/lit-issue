@@ -9,16 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lit-protocol/lit-node-client": "^6.0.0-beta.2",
+    "@tanstack/react-query": "^5.28.8",
+    "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.6"
+    "siwe": "^2.3.2",
+    "viem": "^2.9.0",
+    "wagmi": "^2.5.12"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.6"
+    "eslint-config-next": "13.5.6",
+    "typescript": "^5"
   }
 }
